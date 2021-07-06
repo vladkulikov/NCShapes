@@ -9,6 +9,9 @@ public class Triangle implements IShape {
         this.base = base;
     }
 
+    public String getName(){
+        return "triangle";
+    }
 
     public double getHeight() {
         return height;

@@ -14,10 +14,10 @@ public class Main {
 	    triangle.setHeight(5);
 	    circle.setRadius(-21);
 
-	    System.out.printf("Area %s shape = %s \n", 1, square.getArea());
-        System.out.printf("Area %s shape = %s \n", 2, ellipse.getArea());
-        System.out.printf("Area %s shape = %s \n", 3, triangle.getArea());
-        System.out.printf("Area %s shape = %s \n", 4, circle.getArea());
+	    System.out.printf("Area %s = %s \n", square.getName(), square.getArea());
+        System.out.printf("Area %s = %s \n", ellipse.getName(), ellipse.getArea());
+        System.out.printf("Area %s = %s \n", triangle.getName(), triangle.getArea());
+        System.out.printf("Area %s = %s \n", circle.getName(), circle.getArea());
 
 
 

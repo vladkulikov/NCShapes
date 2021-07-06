@@ -8,6 +8,9 @@ public class Ellipse implements IShape{
         this.b = b;
     }
 
+    public String getName(){
+        return "ellipse";
+    }
 
 
     public double getA() {

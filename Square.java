@@ -6,6 +6,10 @@ public class Square implements IShape{
         this.a = radius;
     }
 
+    public String getName(){
+        return "square";
+    }
+
     public double getRadius() {
         return a;
     }

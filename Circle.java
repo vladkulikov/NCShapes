@@ -7,6 +7,11 @@ public class Circle implements IShape{
         this.radius = radius;
 
     }
+
+    public String getName(){
+        return "circle";
+    }
+
     public double getRadius() {
         return radius;
     }
