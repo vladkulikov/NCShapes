@@ -47,7 +47,7 @@ public class Ellipse implements IShape{
 
     @Override
     public double getArea() {
-        if (getSignA() || getSignB()) {
+        if (getSignA() & getSignB()) {
             return (a * b) * Math.PI;
         } else {
             return -1.0;

@@ -24,4 +24,24 @@ public class TriangleTest {
         double expected = -1.0;
         Assert.assertEquals(expected, actual, 0);
     }
+
+    @Test
+    public void getArea3() {
+        Triangle test = new Triangle(2.0, 2.0);
+        test.setHeight(-5.2);
+        test.setBase(1.2);
+        double actual = test.getArea();
+        double expected = -1.0;
+        Assert.assertEquals(expected, actual, 0);
+    }
+
+    @Test
+    public void getArea4() {
+        Triangle test = new Triangle(2.0, 2.0);
+        test.setHeight(5.2);
+        test.setBase(-1.2);
+        double actual = test.getArea();
+        double expected = -1.0;
+        Assert.assertEquals(expected, actual, 0);
+    }
 }

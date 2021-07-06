@@ -48,7 +48,7 @@ public class Triangle implements IShape {
 
     @Override
     public double getArea() {
-        if (getSignBase() || getSignHeight()) {
+        if (getSignBase() & getSignHeight()) {
             return (height * base) / 2;
         } else {
             return -1.0;
